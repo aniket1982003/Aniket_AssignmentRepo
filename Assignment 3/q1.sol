@@ -7,10 +7,10 @@
         uint private seed ;
         uint[8] private winner ;
         constructor()
-        {
+         {
             seed = block.timestamp;
             winner=[0,3,0,9,2,0,0,3];
-        }
+         }
 
         function randomBetween0And9() private returns (uint) 
         {
